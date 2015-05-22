@@ -69,7 +69,8 @@ $('#dropdown li').on('click', function(){
        skycons.set("day2",Icon2);
        skycons.set("day3",Icon3);
 
-
+       skycons.play();
+       
        console.log(cityMatch);
        console.log(nocity);
          }
